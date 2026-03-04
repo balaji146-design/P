@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio Showcase</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Abstract Background Elements -->
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="glass-header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Portfo<span>lio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in">
+            <div class="hero-content glass-card hover-tilt">
+                <span class="greeting">Hello, I am</span>
+                <h1 class="name">Balaji</h1>
+                <h2 class="role">Frontend Developer & <span class="gradient-text">UI/UX Enthusiast</span></h2>
+                <p class="description">
+                    I craft beautiful, responsive, and intuitive digital experiences. Specializing in modern web
+                    technologies and dynamic interfaces.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary-btn">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual glass-card hover-tilt">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=1400&auto=format&fit=crop"
+                        alt="Profile Representation" class="profile-img">
+                </div>
+                <div class="floating-badge badge-1">
+                    <i class="fab fa-html5"></i> HTML5
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fab fa-css3-alt"></i> CSS3
+                </div>
+                <div class="floating-badge badge-3">
+                    <i class="fab fa-js"></i> JavaScript
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section fade-in">
+            <h2 class="section-title">Selected <span class="gradient-text">Works</span></h2>
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card glass-card hover-lift">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
+                            alt="E-Commerce Interface">
+                        <div class="project-overlay">
+                            <a href="#" class="btn primary-btn project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Nexus E-Commerce</h3>
+                        <p>A high-performance modern shopping platform with seamless cart functionality and elegant
+                            product displays.</p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-card hover-lift">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop"
+                            alt="Dashboard App">
+                        <div class="project-overlay">
+                            <a href="#" class="btn primary-btn project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>A comprehensive real-time dashboard translating complex data streams into actionable visual
+                            insights.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">SCSS</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass-card hover-lift">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop"
+                            alt="Landing Page">
+                        <div class="project-overlay">
+                            <a href="#" class="btn primary-btn project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Stellar Landing Page</h3>
+                        <p>An immersive marketing landing page designed to maximize conversions through captivating
+                            motion design.</p>
+                        <div class="tech-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Framer Motion</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section fade-in">
+            <h2 class="section-title">Let's Create <span class="gradient-text">Together</span></h2>
+            <div class="contact-wrapper glass-card">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I'm currently available for freelance work and exciting opportunities. Let's discuss your next
+                        project!</p>
+
+                    <div class="contact-methods">
+                        <div class="method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>hello@example.com</span>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Remote, Worldwide</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Balaji Portfolio. Crafted with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
